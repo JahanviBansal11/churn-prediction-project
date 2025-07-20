@@ -6,7 +6,7 @@ This project focuses on predicting whether a customer is likely to churn (leave 
 
 ## Overview
 
-We used a synthetic dataset that simulates real customer behavior, including:
+ Project uses a synthetic dataset that simulates real customer behavior, including:
 
 - Time since joining (`tenure`)
 - Recent transactions
@@ -21,7 +21,7 @@ Each customer is labeled as either "churned" (1) or "retained" (0) based on thei
 
 ## Feature Engineering
 
-To improve model accuracy, we created new features that give more insight into customer behavior:
+To improve model accuracy, I created new features that give more insight into customer behavior:
 
 - `engagement_score`: Combines login activity and transaction frequency  
 - `payment_risk`: Highlights customers with frequent late payments  
